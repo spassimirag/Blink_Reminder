@@ -31,7 +31,6 @@ public class BlinkReminder implements ActionListener {
 
     @Override
     public void actionPerformed (ActionEvent e) {
-       // button.setText("Good job!");
         frame.setVisible(false);
         try {
             Thread.sleep(20 * 60 * 1000);
