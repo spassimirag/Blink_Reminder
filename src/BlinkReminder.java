@@ -38,7 +38,6 @@ public class BlinkReminder implements ActionListener {
         } catch (InterruptedException ex) {
             throw new RuntimeException(ex);
         }
-       // button.setText("It's been 20 minutes - time to blink! Click me once you've blinked 5 times.");
         frame.setVisible(true);
 
 
