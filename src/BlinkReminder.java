@@ -27,7 +27,6 @@ public class BlinkReminder implements ActionListener {
         frame.getContentPane().add(button);
         frame.setSize(500, 500);
         frame.setVisible(true);
-        //frame.getContentPane().add(button);
     }
 
     @Override
@@ -35,8 +34,7 @@ public class BlinkReminder implements ActionListener {
        // button.setText("Good job!");
         frame.setVisible(false);
         try {
-            //Thread.sleep(20 * 60 * 1000);
-            Thread.sleep(700);
+            Thread.sleep(20 * 60 * 1000);
         } catch (InterruptedException ex) {
             throw new RuntimeException(ex);
         }
